@@ -16,6 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/bjmhe/bjmhe.git"
   },
+  "bin": {
+    "bjmhe": "./dist/index.mjs"
+  },
   "files": [
     "dist",
     "README.md"
