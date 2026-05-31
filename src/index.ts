@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import { intro, log, select } from "@clack/prompts";
+import { intro, outro, log, select } from "@clack/prompts";
 import cac from "cac";
 
 import { version } from "../package.json";
@@ -39,6 +39,12 @@ function writeFileEnsuringDir(filePath: string, content: string) {
 
 const cli = cac();
 
+cli.command("").action(async () => {
+  log.info("👋 Hi there, I'm Benjamin He")
+  log.info("Software engineer based in Beijing.")
+  log.info("I'm building web applications and open-source tools, with a focus on Rust and modern frontend.")
+})
+
 cli.command("fetch", "Fetch docs from @bjmhe")
   .action(async () => {
     const type = await select({
@@ -74,3 +80,5 @@ cli.help();
 cli.version(version);
 
 cli.parse();
+
+outro("Exit...");
