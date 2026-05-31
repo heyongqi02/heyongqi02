@@ -11,6 +11,10 @@ overrides:
 importers:
 
   .:
+    dependencies:
+      cac:
+        specifier: ^7.0.0
+        version: 7.0.0
     devDependencies:
       '@arethetypeswrong/core':
         specifier: ^0.18.2

@@ -41,6 +41,9 @@
     "release": "bumpp",
     "prepublishOnly": "vp run build"
   },
+  "dependencies": {
+    "cac": "^7.0.0"
+  },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.2",
     "@bjmhe/viteplus-preset": "^2.0.1",
