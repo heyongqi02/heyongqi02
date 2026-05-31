@@ -61,6 +61,28 @@ cli.command("issue", "Fetch ISSUE_TEMPLATE from @bjmhe").action(async () => {
   }
 });
 
+cli.command("pull", "Fetch PULL_REQUEST_TEMPLATE from @bjmhe").action(async () => {
+  log.info("Fetching PULL_REQUEST_TEMPLATE from @bjmhe/bjmhe...");
+  try {
+    const issueTemplates = ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/PULL_REQUEST_TEMPLATE.md"];
+
+    for (const issueTemplate of issueTemplates) {
+      const issueTemplateResponse = await fetch(issueTemplate);
+      const issueTemplateContent = await issueTemplateResponse.text();
+      // 当前命令行目录
+      const currentDir = process.cwd();
+      writeFileEnsuringDir(
+        path.join(currentDir, ".github", issueTemplate.split("/").pop()!),
+        issueTemplateContent,
+      );
+    }
+    log.success("PULL_REQUEST_TEMPLATE fetched successfully");
+  } catch (error) {
+    log.error("Failed to fetch PULL_REQUEST_TEMPLATE");
+    console.error(JSON.stringify(error, null, 2));
+  }
+});
+
 cli.help();
 cli.version(version);
 
