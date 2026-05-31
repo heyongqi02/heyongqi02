@@ -28,6 +28,32 @@ cli.command("fund", "Fetch FUNDING.yml from @bjmhe").action(async () => {
   }
 });
 
+cli.command("issue", "Fetch ISSUE_TEMPLATE from @bjmhe").action(async () => {
+  log.info("Fetching ISSUE_TEMPLATE from @bjmhe/bjmhe...");
+  try {
+    const issueTemplates = [
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/ISSUE_TEMPLATE/config.yml",
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/ISSUE_TEMPLATE/typo.yml",
+    ];
+
+    for (const issueTemplate of issueTemplates) {
+      const issueTemplateResponse = await fetch(issueTemplate);
+      const issueTemplateContent = await issueTemplateResponse.text();
+      // 当前命令行目录
+      const currentDir = process.cwd();
+      fs.writeFileSync(
+        path.join(currentDir, ".github/ISSUE_TEMPLATE", issueTemplate.split("/").pop()!),
+        issueTemplateContent,
+      );
+    }
+    log.success("ISSUE_TEMPLATE fetched successfully");
+  } catch {
+    log.error("Failed to fetch ISSUE_TEMPLATE");
+  }
+});
+
 cli.help();
 cli.version(version);
 
