@@ -34,7 +34,12 @@ const docsMap = {
     label: "CODE_OF_CONDUCT",
     urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/CODE_OF_CONDUCT.md"],
     fileName: "",
-  }
+  },
+  license: {
+    label: "LICENSE",
+    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/LICENSE"],
+    fileName: "",
+  },
 }
 
 function writeFileEnsuringDir(filePath: string, content: string) {
@@ -60,7 +65,7 @@ async function fetchDocs(type: keyof typeof docsMap) {
 }
 
 cli.command("fetch", "Fetch docs from @bjmhe")
-  .option("--type <type>", "The type of docs to fetch (fund|issue|pull|coc|all)", { default: "all" })
+  .option("--type <type>", "The type of docs to fetch (fund|issue|pull|coc|license|all)", { default: "all" })
   .action(async (options: { type: string }) => {
     const types = options.type === "all"
       ? (Object.keys(docsMap) as (keyof typeof docsMap)[])
