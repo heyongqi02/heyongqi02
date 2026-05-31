@@ -11,16 +11,6 @@ overrides:
 importers:
 
   .:
-    dependencies:
-      tsdown:
-        specifier: ^0.22.1
-        version: 0.22.1(@arethetypeswrong/core@0.18.3)(@typescript/native-preview@7.0.0-dev.20260527.2)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)
-      tsnapi:
-        specifier: ^0.3.3
-        version: 0.3.3(vitest@4.1.7)
-      vite-plus:
-        specifier: ^0.1.20
-        version: 0.1.23(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.7)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.14(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
     devDependencies:
       '@arethetypeswrong/core':
         specifier: ^0.18.2
@@ -49,12 +39,21 @@ importers:
       publint:
         specifier: ^0.3.21
         version: 0.3.21
+      tsdown:
+        specifier: ^0.22.1
+        version: 0.22.1(@arethetypeswrong/core@0.18.3)(@typescript/native-preview@7.0.0-dev.20260527.2)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)
+      tsnapi:
+        specifier: ^0.3.3
+        version: 0.3.3(vitest@4.1.7)
       typescript:
         specifier: ^6.0.3
         version: 6.0.3
       unplugin-unused:
         specifier: ^0.5.7
         version: 0.5.7
+      vite-plus:
+        specifier: ^0.1.20
+        version: 0.1.23(@arethetypeswrong/core@0.18.3)(@types/node@25.9.1)(@vitest/coverage-v8@4.1.7)(jiti@2.7.0)(publint@0.3.21)(typescript@6.0.3)(unplugin-unused@0.5.7)(vite@8.0.14(@types/node@25.9.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
 
 packages:
 

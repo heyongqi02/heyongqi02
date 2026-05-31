@@ -27,9 +27,6 @@
   "types": "./dist/index.d.mts",
   "exports": {
     ".": "./dist/index.mjs",
-    "./fmt": "./dist/fmt.mjs",
-    "./lint": "./dist/lint.mjs",
-    "./pack": "./dist/pack.mjs",
     "./package.json": "./package.json"
   },
   "publishConfig": {
@@ -41,10 +38,6 @@
     "release": "bumpp",
     "prepublishOnly": "vp run build"
   },
-  "dependencies": {
-    "tsdown": "^0.22.1",
-    "tsnapi": "^0.3.3"
-  },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.2",
     "@bjmhe/viteplus-preset": "^2.0.1",
@@ -55,10 +48,10 @@
     "automd": "^0.4.3",
     "bumpp": "^11.1.0",
     "publint": "^0.3.21",
+    "tsdown": "^0.22.1",
+    "tsnapi": "^0.3.3",
     "typescript": "^6.0.3",
-    "unplugin-unused": "^0.5.7"
-  },
-  "peerDependencies": {
+    "unplugin-unused": "^0.5.7",
     "vite-plus": "^0.1.20"
   },
   "engines": {
