@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import { intro, outro, log, select } from "@clack/prompts";
+import { intro, outro, log } from "@clack/prompts";
 import cac from "cac";
 
 import { version } from "../package.json";
@@ -50,28 +50,31 @@ cli.command("").action(async () => {
   log.info("I'm building web applications and open-source tools, with a focus on Rust and modern frontend.")
 })
 
+async function fetchDocs(type: keyof typeof docsMap) {
+  const docs = docsMap[type];
+  for (const url of docs.urls) {
+    const response = await fetch(url);
+    const content = await response.text();
+    writeFileEnsuringDir(path.join(process.cwd(), docs.fileName, url.split("/").pop()!), content);
+  }
+}
+
 cli.command("fetch", "Fetch docs from @bjmhe")
-  .action(async () => {
-    const type = await select({
-      message: 'Pick a docs type.',
-      options: Object.entries(docsMap).map(([value, item]) => ({
-        value,
-        label: item.label,
-      })),
-    });
-    if (!type) {
-      log.error("No docs type selected");
-      return;
+  .option("--type <type>", "The type of docs to fetch (fund|issue|pull|coc|all)", { default: "all" })
+  .action(async (options: { type: string }) => {
+    const types = options.type === "all"
+      ? (Object.keys(docsMap) as (keyof typeof docsMap)[])
+      : [options.type as keyof typeof docsMap];
+
+    for (const type of types) {
+      if (!(type in docsMap)) {
+        log.error(`Unknown docs type: ${type}. Valid types: ${Object.keys(docsMap).join(", ")}, all`);
+        return;
+      }
     }
-    const docs = docsMap[type as keyof typeof docsMap];
-    if (!docs) {
-      log.error("No docs found");
-      return;
-    }
-    for (const url of docs.urls) {
-      const response = await fetch(url);
-      const content = await response.text();
-      writeFileEnsuringDir(path.join(process.cwd(), docs.fileName, url.split("/").pop()!), content);
+
+    for (const type of types) {
+      await fetchDocs(type);
     }
     log.success("Docs fetched successfully");
   })
