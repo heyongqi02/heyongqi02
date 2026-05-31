@@ -28,8 +28,9 @@ cli.command("fund", "Fetch FUNDING.yml from @bjmhe").action(async () => {
     const currentDir = process.cwd();
     writeFileEnsuringDir(path.join(currentDir, ".github/FUNDING.yml"), fundingContent);
     log.success("FUNDING.yml fetched successfully");
-  } catch {
+  } catch (error) {
     log.error("Failed to fetch FUNDING.yml");
+    console.error(JSON.stringify(error, null, 2));
   }
 });
 
