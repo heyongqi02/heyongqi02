@@ -30,6 +30,11 @@ const docsMap = {
     urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/PULL_REQUEST_TEMPLATE.md"],
     fileName: ".github",
   },
+  coc: {
+    label: "CODE_OF_CONDUCT",
+    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/CODE_OF_CONDUCT.md"],
+    fileName: "",
+  }
 }
 
 function writeFileEnsuringDir(filePath: string, content: string) {
