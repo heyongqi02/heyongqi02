@@ -9,6 +9,11 @@ import { version } from "../package.json";
 
 intro("Welcome to @bjmhe/bjmhe");
 
+function writeFileEnsuringDir(filePath: string, content: string) {
+  fs.mkdirSync(path.dirname(filePath), { recursive: true });
+  fs.writeFileSync(filePath, content, "utf8");
+}
+
 const cli = cac();
 
 cli.command("fund", "Fetch FUNDING.yml from @bjmhe").action(async () => {
@@ -21,7 +26,7 @@ cli.command("fund", "Fetch FUNDING.yml from @bjmhe").action(async () => {
     const fundingContent = await funding.text();
     // 当前命令行目录
     const currentDir = process.cwd();
-    fs.writeFileSync(path.join(currentDir, ".github/FUNDING.yml"), fundingContent);
+    writeFileEnsuringDir(path.join(currentDir, ".github/FUNDING.yml"), fundingContent);
     log.success("FUNDING.yml fetched successfully");
   } catch {
     log.error("Failed to fetch FUNDING.yml");
@@ -43,14 +48,15 @@ cli.command("issue", "Fetch ISSUE_TEMPLATE from @bjmhe").action(async () => {
       const issueTemplateContent = await issueTemplateResponse.text();
       // 当前命令行目录
       const currentDir = process.cwd();
-      fs.writeFileSync(
+      writeFileEnsuringDir(
         path.join(currentDir, ".github/ISSUE_TEMPLATE", issueTemplate.split("/").pop()!),
         issueTemplateContent,
       );
     }
     log.success("ISSUE_TEMPLATE fetched successfully");
-  } catch {
+  } catch (error) {
     log.error("Failed to fetch ISSUE_TEMPLATE");
+    console.error(JSON.stringify(error, null, 2));
   }
 });
 
