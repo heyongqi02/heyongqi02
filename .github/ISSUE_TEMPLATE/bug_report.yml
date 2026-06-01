@@ -1,5 +1,5 @@
-name: 🐞 Bug 报告
-description: 报告一个 bug
+name: 🐞 缺陷报告
+description: 报告一个可复现的缺陷
 labels: []
 body:
   - type: markdown
@@ -7,11 +7,14 @@ body:
       value: |
         **开始之前**
 
-        本表单仅用于提交 bug。若你只是使用上的问题，或不确定是否为 bug，请先：
-        - 阅读 README / 文档
-        - 在 GitHub Discussions 中提问（如有）
+        本表单仅用于提交**可复现的缺陷**。若你只是使用上的问题，或不确定是否为缺陷，请先：
+        - 阅读 [README](/README.md) 与 [贡献指南](/CONTRIBUTING.md)
+        - 在本仓库 **Discussions** 中提问（若已启用）
 
-        也请先搜索是否已有类似 issue。若某个已关闭的旧 issue 在最新版中仍然存在，请用下方表单**新建** issue，而不要在原 issue 下继续评论。
+        请先搜索是否已有类似 Issue。若某个已关闭的旧 Issue 在最新版中仍然存在，请用本表单**新建** Issue，而不要在原 Issue 下继续评论。
+
+        > [!WARNING]
+        > **安全提示**：若你发现的是可被利用的安全漏洞，**请勿**在此提交公开 Issue，请按 [安全策略](/SECURITY.md) 通过私密渠道报告。
 
   - type: markdown
     attributes:
@@ -20,7 +23,7 @@ body:
 
         > [!CAUTION]
         > **这是最重要的一部分。**
-        > 请提供**最小复现**（步骤、命令、环境等），否则 issue 可能会被关闭。
+        > 请提供**最小复现**（步骤、命令、环境等），否则 Issue 可能会被关闭。
 
         可参考：[为什么需要最小复现？](https://antfu.me/posts/why-reproductions-are-required)
 
@@ -59,9 +62,21 @@ body:
         - OS: macOS 15.x
         - Node: v24.x
         - pnpm: 11.x
+    validations:
+      required: true
 
   - type: textarea
     id: additional
     attributes:
       label: 补充说明
       description: 其他有助于排查的背景信息
+
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: 提交前确认
+      options:
+        - label: 我已阅读 [行为准则](/CODE_OF_CONDUCT.md) 与 [贡献指南](/CONTRIBUTING.md)
+          required: true
+        - label: 我已搜索现有 Issue，确认没有重复的缺陷报告
+          required: true

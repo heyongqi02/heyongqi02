@@ -8,10 +8,13 @@ body:
         **开始之前**
 
         感谢你愿意花时间提出建议。请先：
-        - 阅读 README / 文档，确认当前是否已支持或已有替代方案
-        - 搜索是否已有类似 issue，避免重复
+        - 阅读 [README](/README.md) 与 [贡献指南](/CONTRIBUTING.md)，确认当前是否已支持或已有替代方案
+        - 搜索是否已有类似 Issue，避免重复
 
-        若你**打算提交 PR** 实现该功能，请在下方说明，维护者可以更快对齐方向。
+        若你**打算提交 PR** 实现该功能，请在下方说明；较大改动建议先与维护者对齐方向（见贡献指南）。
+
+        > [!WARNING]
+        > **安全提示**：若你发现的是可被利用的安全漏洞，**请勿**在此提交公开 Issue，请按 [安全策略](/SECURITY.md) 通过私密渠道报告。
 
   - type: textarea
     id: problem
@@ -29,7 +32,7 @@ body:
       label: 期望方案
       description: 你理想中的实现方式、API 形态或交互流程（不必非常具体）。
       placeholder: |
-        例如：新增 `bjmhe foo` 子命令，支持 `--bar` 选项，默认行为为…
+        例如：新增 `xxx foo` 子命令，支持 `--bar` 选项，默认行为为…
     validations:
       required: true
 
@@ -37,7 +40,7 @@ body:
     id: alternatives
     attributes:
       label: 已考虑的替代方案
-      description: 其他可行做法、现有工具/workaround，以及你不选择它们的理由（如有）。
+      description: 其他可行做法、现有工具或 workaround，以及你不选择它们的理由（如有）。
 
   - type: textarea
     id: acceptance
@@ -47,7 +50,7 @@ body:
       placeholder: |
         - [ ] 支持 xxx 场景
         - [ ] 文档/README 已更新
-        - [ ] 与现有 `yyy` 行为兼容
+        - [ ] 与现有行为兼容
 
   - type: textarea
     id: additional
@@ -60,7 +63,7 @@ body:
     attributes:
       label: 提交前确认
       options:
-        - label: 我已阅读 [行为准则](https://github.com/bjmhe/bjmhe/blob/master/CODE_OF_CONDUCT.md) 与 [贡献指南](https://github.com/bjmhe/bjmhe/blob/master/CONTRIBUTING.md)
+        - label: 我已阅读 [行为准则](/CODE_OF_CONDUCT.md) 与 [贡献指南](/CONTRIBUTING.md)
           required: true
-        - label: 我已搜索现有 issue，确认没有重复的功能请求
+        - label: 我已搜索现有 Issue，确认没有重复的功能请求
           required: true
