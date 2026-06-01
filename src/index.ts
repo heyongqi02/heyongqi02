@@ -12,44 +12,44 @@ intro("Welcome to @bjmhe/bjmhe");
 const docsMap = {
   fund: {
     label: "FUNDING.yml",
-    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/FUNDING.yml"],
+    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/.github/FUNDING.yml"],
     fileName: ".github",
   },
   issue: {
     label: "ISSUE_TEMPLATE",
     urls: [
-      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/ISSUE_TEMPLATE/bug_report.yml",
-      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/ISSUE_TEMPLATE/config.yml",
-      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/ISSUE_TEMPLATE/feature_request.yml",
-      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/ISSUE_TEMPLATE/typo.yml",
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/.github/ISSUE_TEMPLATE/config.yml",
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/.github/ISSUE_TEMPLATE/feature_request.yml",
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/.github/ISSUE_TEMPLATE/typo.yml",
     ],
     fileName: ".github/ISSUE_TEMPLATE",
   },
   pull: {
     label: "PULL_REQUEST_TEMPLATE",
     urls: [
-      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/.github/PULL_REQUEST_TEMPLATE.md",
+      "https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/.github/PULL_REQUEST_TEMPLATE.md",
     ],
     fileName: ".github",
   },
   coc: {
     label: "CODE_OF_CONDUCT",
-    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/CODE_OF_CONDUCT.md"],
+    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/CODE_OF_CONDUCT.md"],
     fileName: "",
   },
   license: {
     label: "LICENSE",
-    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/LICENSE"],
+    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/LICENSE"],
     fileName: "",
   },
   contribution: {
     label: "CONTRIBUTING",
-    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/CONTRIBUTING.md"],
+    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/CONTRIBUTING.md"],
     fileName: "",
   },
   security: {
     label: "SECURITY",
-    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/SECURITY.md"],
+    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/main/SECURITY.md"],
     fileName: "",
   },
 };
