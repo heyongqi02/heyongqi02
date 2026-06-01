@@ -47,6 +47,11 @@ const docsMap = {
     urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/CONTRIBUTING.md"],
     fileName: "",
   },
+  security: {
+    label: "SECURITY",
+    urls: ["https://raw.githubusercontent.com/bjmhe/bjmhe/refs/heads/master/SECURITY.md"],
+    fileName: "",
+  },
 };
 
 function writeFileEnsuringDir(filePath: string, content: string) {
@@ -77,7 +82,7 @@ cli
   .command("fetch", "Fetch docs from @bjmhe")
   .option(
     "--type <type>",
-    "The type of docs to fetch (fund|issue|pull|coc|license|contribution|all)",
+    "The type of docs to fetch (fund|issue|pull|coc|license|contribution|security|all)",
     {
       default: "all",
     },
