@@ -11,8 +11,6 @@
 [![Support Me](https://img.shields.io/liberapay/patrons/bjmhe.svg?logo=liberapay)](https://zh-hans.liberapay.com/bjmhe/)
 [![GitHub followers](https://img.shields.io/github/followers/bjmhe)](https://github/bjmhe)
 
-Software engineer based in Beijing.
-
 I'm building web applications and open-source tools, with a focus on Rust and modern frontend.
 
 **[View Resume](https://bjmhe.github.io/resume/)** · **[Download PDF](https://bjmhe.github.io/resume/resume.pdf)**
