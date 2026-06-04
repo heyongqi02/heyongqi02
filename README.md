@@ -1,8 +1,8 @@
 ### 👋 Hi there, I'm Benjamin He
 
-I'm building web applications and open-source tools, with a focus on Rust and modern frontend.
-
 **[View Resume](https://bjmhe.github.io/resume/)** · **[Download PDF](https://bjmhe.github.io/resume/resume.pdf)**
+
+I'm building web applications and open-source tools, with a focus on Rust and modern frontend.
 
 #### 🔭 Tech stack
 
