@@ -1,82 +1,62 @@
-name: 🐞 缺陷报告
-description: 报告一个可复现的缺陷
-labels: []
+name: 🐞 Bug report
+description: Report an issue
+type: Bug
+labels: [pending triage]
 body:
   - type: markdown
     attributes:
       value: |
-        **开始之前**
+        **Before You Start...**
 
-        本表单仅用于提交**可复现的缺陷**。若你只是使用上的问题，或不确定是否为缺陷，请先：
-        - 阅读 [README](/README.md) 与 [贡献指南](/CONTRIBUTING.md)
-        - 在本仓库 **Discussions** 中提问（若已启用）
+        This form is only for submitting bug reports. If you have a usage question
+        or are unsure if this is really a bug, make sure to:
+        - Read the [docs](https://tsdown.dev/)
+        - Ask on [GitHub Discussions](https://github.com/rolldown/tsdown/discussions)
 
-        请先搜索是否已有类似 Issue。若某个已关闭的旧 Issue 在最新版中仍然存在，请用本表单**新建** Issue，而不要在原 Issue 下继续评论。
-
-        > [!WARNING]
-        > **安全提示**：若你发现的是可被利用的安全漏洞，**请勿**在此提交公开 Issue，请按 [安全策略](/SECURITY.md) 通过私密渠道报告。
+        Also try to search for your issue - it may have already been answered or even fixed in the development branch.
+        However, if you find that an old, closed issue still persists in the latest version,
+        you should open a new issue using the form below instead of commenting on the old issue.
 
   - type: markdown
     attributes:
       value: |
-        ## 复现信息
+        ## 📋 Show us the bug
 
         > [!CAUTION]
-        > **这是最重要的一部分。**
-        > 请提供**最小复现**（步骤、命令、环境等），否则 Issue 可能会被关闭。
+        > **This is the most important part.**
+        > A **minimal reproduction** is required to investigate and fix the issue, or it will be closed.
 
-        可参考：[为什么需要最小复现？](https://antfu.me/posts/why-reproductions-are-required)
+         - Use [StackBlitz](https://stackblitz.com/github/rolldown/tsdown-starter-stackblitz) to create a minimal reproduction and share the link.
+        - Or provide a minimal repository on GitHub that can reproduce the issue. You could use [this template](https://github.com/rolldown/tsdown-starter-stackblitz).
 
   - type: textarea
-    id: reproduction
+    id: reproduction-link-or-steps
     attributes:
-      label: 复现步骤或链接
-      description: 版本号、操作步骤、相关命令；如有最小仓库链接请附上。
-      placeholder: |
-        1. 安装 xxx@x.x.x
-        2. 执行 `xxx --foo`
-        3. 出现错误：...
+      label: Reproduction link or steps
+      placeholder: https://github.com/... or https://stackblitz.com/...
     validations:
       required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        > [!TIP]
+        > **🙋 Need help?** Use [_Priority Support_](https://github.com/sponsors/sxzz) for debugging help and implementation!
 
   - type: textarea
     id: expected
     attributes:
-      label: 期望行为
+      label: What is expected?
     validations:
       required: true
-
   - type: textarea
-    id: actual
+    id: actually-happening
     attributes:
-      label: 实际行为
+      label: What is actually happening?
     validations:
       required: true
-
   - type: textarea
-    id: environment
+    id: additional-comments
     attributes:
-      label: 环境信息
-      description: 操作系统、运行时版本、包管理器等（如适用）
-      placeholder: |
-        - OS: macOS 15.x
-        - Node: v24.x
-        - pnpm: 11.x
-    validations:
-      required: true
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: 补充说明
-      description: 其他有助于排查的背景信息
-
-  - type: checkboxes
-    id: validations
-    attributes:
-      label: 提交前确认
-      options:
-        - label: 我已阅读 [行为准则](/CODE_OF_CONDUCT.md) 与 [贡献指南](/CONTRIBUTING.md)
-          required: true
-        - label: 我已搜索现有 Issue，确认没有重复的缺陷报告
-          required: true
+      label: Any additional comments?
+      description: e.g. some background/context of how you ran into this bug.
