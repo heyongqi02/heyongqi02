@@ -2,15 +2,7 @@
   "name": "@bjmhe/bjmhe",
   "version": "1.0.2",
   "description": "Benjamin He's personal tools",
-  "keywords": [
-    "bjmhe",
-    "tools"
-  ],
-  "homepage": "https://github.com/bjmhe/bjmhe#readme",
-  "bugs": {
-    "url": "https://github.com/bjmhe/bjmhe/issues"
-  },
-  "license": "MIT",
+  "license": "Apache-2.0",
   "author": "Benjamin He <hi@bjmhe.me>",
   "repository": {
     "type": "git",

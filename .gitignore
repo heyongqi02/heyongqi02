@@ -1,6 +1,8 @@
-node_modules
-dist
-*.log
 .DS_Store
+.pnpm-store
 
 coverage
+dist
+node_modules
+
+*.log
