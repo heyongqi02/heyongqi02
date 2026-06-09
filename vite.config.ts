@@ -6,6 +6,7 @@ export default nodeLib(
     run: {
       tasks: {
         autofix: ["vpx automd", "vp check --fix"],
+        release: ["vpx bumpp"],
       },
     },
     pack: {

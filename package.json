@@ -31,7 +31,6 @@
   "scripts": {
     "build": "vp pack",
     "dev": "vp pack --watch",
-    "release": "bumpp",
     "prepublishOnly": "vp run build"
   },
   "dependencies": {
