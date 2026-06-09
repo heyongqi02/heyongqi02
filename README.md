@@ -37,8 +37,11 @@ Last Updated on 09/06/2026 01:29:12 UTC
     <a href="https://bjmhe.me">me</a> .
     <a href="https://bjmhe.me">twitter</a> .
     <a href="https://bjmhe.me">bluesky</a> .
+    <a href="https://bjmhe.me">tiktok</a> .
     <a href="https://bjmhe.me">bilibili</a> .
     <a href="https://bjmhe.me">juejin</a> .
+    <a href="https://bjmhe.me">csdn</a> .
+    <a href="https://bjmhe.me">qq</a> .
     <a href="https://bjmhe.me">wechat</a>
   </samp>
 </p>
