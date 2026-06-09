@@ -32,14 +32,4 @@ Last Updated on 09/06/2026 01:29:12 UTC
 
 #### ☎️ Contact me
 
-<p style="display: flex; gap: 12px; align-items: center;">
-    <a href="https://github.com/bjmhe" style="text-decoration: none;">
-        <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg" />
-    </a>
-    <a href="https://github.com/bjmhe" style="text-decoration: none;">
-        <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/x.svg" />
-    </a>
-    <a href="https://github.com/bjmhe" style="text-decoration: none;">
-        <img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/bluesky.svg" />
-    </a>
-</p>
+<a href="https://github.com/bjmhe"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg" alt="GitHub" /></a>&nbsp;&nbsp;<a href="https://github.com/bjmhe"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/x.svg" alt="X" /></a>&nbsp;&nbsp;<a href="https://github.com/bjmhe"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/bluesky.svg" alt="Bluesky" /></a>
