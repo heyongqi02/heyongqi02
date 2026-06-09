@@ -20,9 +20,9 @@ jobs:
           # 是否显示截止今日的代码贡献行数
           SHOW_LINES_OF_CODE: true
           # 是否显示编程时长统计
-          SHOW_TOTAL_CODE_TIME: false
+          SHOW_TOTAL_CODE_TIME: true
           # 是否显示资料页浏览量统计
-          SHOW_PROFILE_VIEWS: false
+          SHOW_PROFILE_VIEWS: true
           # 是否显示提交 commit 统计
           SHOW_COMMIT: false
           # 是否显示一周内每日 commit 量情况
