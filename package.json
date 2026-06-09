@@ -32,7 +32,8 @@
     "build": "vp pack",
     "dev": "vp pack --watch",
     "release": "bumpp",
-    "prepublishOnly": "vp run build"
+    "prepublishOnly": "vp run build",
+    "generator:contact": "node scripts/contact_generator.mjs"
   },
   "dependencies": {
     "@clack/prompts": "^1.5.1",

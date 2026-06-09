@@ -32,4 +32,8 @@ Last Updated on 09/06/2026 01:29:12 UTC
 
 #### ☎️ Contact me
 
-<a href="https://github.com/bjmhe"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg" alt="GitHub" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/bjmhe"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/x.svg" alt="X" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/bjmhe"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/bluesky.svg" alt="Bluesky" /></a>
+<!--START_SECTION:contact-->
+
+<a href="https://github.com/bjmhe"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/github.svg" alt="github" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/bjmhe02"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/x.svg" alt="x" /></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/bjmhe"><img height="24" width="24" src="https://cdn.jsdelivr.net/npm/simple-icons@v16/icons/bluesky.svg" alt="bluesky" /></a>
+
+<!--END_SECTION:contact-->
