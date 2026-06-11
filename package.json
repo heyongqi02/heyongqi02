@@ -44,7 +44,7 @@
     "@heyongqi/tsconfig": "^0.0.1",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^25.9.3",
-    "@typescript/native-preview": "7.0.0-dev.20260604.1",
+    "@typescript/native-preview": "7.0.0-dev.20260611.2",
     "bumpp": "^11.1.0",
     "publint": "^0.3.21",
     "tsdown": "^0.22.2",
