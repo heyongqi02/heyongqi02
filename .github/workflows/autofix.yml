@@ -15,4 +15,4 @@ jobs:
     permissions:
       contents: read
     with:
-      command: vp run autofix
+      command: vpx automd && vp check --fix
