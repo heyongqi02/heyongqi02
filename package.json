@@ -39,12 +39,11 @@
   },
   "devDependencies": {
     "@arethetypeswrong/core": "^0.18.3",
+    "@bjmhe/automd": "^0.0.7",
     "@bjmhe/viteplus-preset": "^2.0.10",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^25.9.2",
     "@typescript/native-preview": "7.0.0-dev.20260604.1",
-    "@vitest/coverage-v8": "^4.1.8",
-    "automd": "^0.4.3",
     "bumpp": "^11.1.0",
     "publint": "^0.3.21",
     "tsdown": "^0.22.2",
