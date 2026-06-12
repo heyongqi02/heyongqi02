@@ -12,7 +12,8 @@ I'm building web applications and open-source tools, with a focus on Rust and mo
 
 <!--START_SECTION:waka-->
 
- Last Updated on 12/06/2026 17:34:06 UTC
+Last Updated on 12/06/2026 17:34:06 UTC
+
 <!--END_SECTION:waka-->
 
 ---
