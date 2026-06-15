@@ -6,28 +6,13 @@ I'm building web applications and open-source tools, with a focus on Rust and mo
 
 #### 🔭 Tech stack
 
-![Tech stack](https://simpleicons.dev/icons?icons=typescript,react,vuedotjs,vite,pnpm,vitest,tauri,nestjs,cypress,lighthouse,modelcontextprotocol&theme=light)
-
-#### 📫 Connect
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/heyongqi/"><img src="https://skillicons.dev/icons?i=linkedin" height="48" alt="LinkedIn"/></a>
-  &emsp;
-  <a href="https://x.com/heyongqi02"><img src="https://skillicons.dev/icons?i=twitter" height="48" alt="X"/></a>
-  &emsp;
-  <a href=""><img src="https://img.shields.io/badge/Bluesky-0085FF?style=for-the-badge&logo=bluesky&logoColor=white" height="48" alt="Bluesky"/></a>
-  &emsp;
-  <a href=""><img src="https://skillicons.dev/icons?i=gmail" height="48" alt="Email"/></a>
-</p>
-<p align="center">
-  <a href="https://juejin.cn/user/708557910842296"><img src="https://img.shields.io/badge/掘金-1E80FF?style=for-the-badge&logoColor=white" height="48" alt="掘金"/></a>
-  &emsp;
-  <a href="https://space.bilibili.com/3493273159075938"><img src="https://img.shields.io/badge/bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" height="48" alt="哔哩哔哩"/></a>
-  &emsp;
-  <a href=""><img src="https://skillicons.dev/icons?i=discord" height="48" alt="Discord"/></a>
-  &emsp;
-  <a href=""><img src="https://img.shields.io/badge/微信-07C160?style=for-the-badge&logo=wechat&logoColor=white" height="48" alt="微信"/></a>
-</p>
+![Tech stack](https://simpleicons.dev/icons?icons=html5,css,javascript,typescript,react,nextdotjs,vuedotjs,svelte,vite,webpack,pnpm,tailwindcss,less,eslint,prettier,stylelint,flutter,electron,tauri,wasm,pinia,trpc,zod&theme=light)
+![Tech stack](https://simpleicons.dev/icons?icons=springboot,quarkus,gin,nestjs,hono,bun,fastapi,tokio&theme=light)
+![Tech stack](https://simpleicons.dev/icons?icons=mysql,postgresql,tidb,redis,mongodb,opensearch,clickhouse,milvus,apachekafka,rabbitmq,consul&theme=light)
+![Tech stack](https://simpleicons.dev/icons?icons=docker,containerd,helm,istio,githubactions,jenkins,argo,harbor,ansible,serverless&theme=light)
+![Tech stack](https://simpleicons.dev/icons?icons=openaigym,claude,ollama,vllm,langchain,langgraph,hive,apacheecharts&theme=light)
+![Tech stack](https://simpleicons.dev/icons?icons=vitest,jest,pytest,postman,cypress,k6&theme=light)
+![Tech stack](https://simpleicons.dev/icons?icons=git,github,linux,zsh,&theme=light)
 
 #### 📅 Coding rhythm
 
