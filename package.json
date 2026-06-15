@@ -41,7 +41,7 @@
     "@arethetypeswrong/core": "^0.18.3",
     "@bjmhe/automd": "^0.0.7",
     "@bjmhe/viteplus-preset": "^2.0.10",
-    "@heyongqi/tsconfig": "^0.0.1",
+    "@heyongqi/tsconfig": "^0.0.5",
     "@tsconfig/node24": "^24.0.4",
     "@types/node": "^25.9.3",
     "@typescript/native-preview": "7.0.0-dev.20260604.1",
