@@ -1,6 +1,6 @@
-### 👋 Hi there, I'm Benjamin He
+### 👋 Hi there, I'm Yongqi He
 
-**[View Resume](https://bjmhe.github.io/resume/)** · **[Download PDF](https://bjmhe.github.io/resume/resume.pdf)**
+**[View Resume](https://heyongqi02.github.io/resume/)** · **[Download PDF](https://heyongqi02.github.io/resume/resume.pdf)**
 
 I'm building web applications and open-source tools, with a focus on Rust and modern frontend.
 
@@ -32,7 +32,7 @@ Last Updated on 14/06/2026 21:00:34 UTC
 
 <p align="center">
   <samp>
-    <a href="https://x.com/bjmhe02">Twitter</a> .
+    <a href="https://x.com/heyongqi02">Twitter</a> .
     <a href="">Bluesky</a> .
     <a href="">Linkedin</a> .
     <a href="">Discord</a> .
