@@ -28,13 +28,13 @@ Last Updated on 14/06/2026 21:00:34 UTC
 
 <!--END_SECTION:waka-->
 
----
+#### 📫 Connect
 
-<p align="center">
-  <samp>
-    <a href="https://www.linkedin.com/in/heyongqi/">LinkedIn</a> ·
-    <a href="https://x.com/heyongqi02">X</a> ·
-    <a href="https://juejin.cn/user/708557910842296">掘金</a> ·
-    <a href="https://space.bilibili.com/3493273159075938">哔哩哔哩</a>
-  </samp>
+Feel free to reach out about web development, Rust, or open source.
+
+<p>
+  <a href="https://www.linkedin.com/in/heyongqi/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" height="32"></a>
+  <a href="https://x.com/heyongqi02"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" alt="X" height="32"></a>
+  <a href="https://juejin.cn/user/708557910842296"><img src="https://img.shields.io/badge/掘金-1E80FF?style=for-the-badge&logoColor=white" alt="掘金" height="32"></a>
+  <a href="https://space.bilibili.com/3493273159075938"><img src="https://img.shields.io/badge/bilibili-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white" alt="哔哩哔哩" height="32"></a>
 </p>
