@@ -6,13 +6,7 @@ I'm building web applications and open-source tools, with a focus on Rust and mo
 
 #### 🔭 Tech stack
 
-![Tech stack](https://simpleicons.dev/icons?icons=html5,css,javascript,typescript,react,nextdotjs,vuedotjs,svelte,vite,webpack,pnpm,tailwindcss,less,eslint,prettier,stylelint,flutter,electron,tauri,wasm,pinia,trpc,zod&theme=light)
-![Tech stack](https://simpleicons.dev/icons?icons=springboot,quarkus,gin,nestjs,hono,bun,fastapi,tokio&theme=light)
-![Tech stack](https://simpleicons.dev/icons?icons=mysql,postgresql,tidb,redis,mongodb,opensearch,clickhouse,milvus,apachekafka,rabbitmq,consul&theme=light)
-![Tech stack](https://simpleicons.dev/icons?icons=docker,containerd,helm,istio,githubactions,jenkins,argo,harbor,ansible,serverless&theme=light)
-![Tech stack](https://simpleicons.dev/icons?icons=openaigym,claude,ollama,vllm,langchain,langgraph,hive,apacheecharts&theme=light)
-![Tech stack](https://simpleicons.dev/icons?icons=vitest,jest,pytest,postman,cypress,k6&theme=light)
-![Tech stack](https://simpleicons.dev/icons?icons=git,github,linux,zsh,&theme=light)
+![Tech stack](https://simpleicons.dev/icons?icons=react,nextdotjs,vuedotjs,vite,webpack,pnpm,tailwindcss,less,pinia,zod,nestjs,mysql,redis,docker,githubactions,cursor,ollama,vitest,cypress,git,linux,zsh&theme=light)
 
 #### 📅 Coding rhythm
 
